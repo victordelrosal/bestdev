@@ -67,7 +67,7 @@
 
 **C**oding
 **O**perations
-**M**anual &
+**M**anual
 **P**rotocol for
 **A**I
 **S**ystem
