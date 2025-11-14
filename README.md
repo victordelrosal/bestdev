@@ -65,6 +65,16 @@
 
 <div align="center">
 
+**C**oding
+**O**perations
+**M**anual &
+**P**rotocol for
+**A**I
+**S**ystem
+**S**tandards
+
+---
+
 **The Professional Operating System for AI Code Generation**
 
 *Transforming AI assistants into reliable engineering partners*
