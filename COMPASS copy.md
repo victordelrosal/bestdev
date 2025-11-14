@@ -1,4 +1,4 @@
-# AI Coding Agent Operating Manual
+# COMPASS: Coding Operations Manual & Protocol for AI System Standards
 **Version:** 2.0
 **Last Updated:** November 2025
 **Scope:** Universal protocol for AI-assisted software development
