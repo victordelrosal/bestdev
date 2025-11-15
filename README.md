@@ -1,3 +1,27 @@
+# Introducing 🧭 COMPASS: Coding Operations Manual & Protocol for AI System Standards
+
+I've been coding with AI agents (mostly Claude Code, ChatGPT Codex, GitHub Copilot) and while I think they're fantastic (almost magical) I've seen a number of issues: AI tools can over-engineer, reinvent established patterns, hallucinate dependencies or APIs, skip input validation, create monolithic codebases, ignore error handling, bypass testing, hardcode secrets, skip null checks, and crucially, lead to a range of security risks.
+
+So I was wondering: what might be the equivalent of having a very senior engineer always guiding the AI coding agent?
+
+To answer this I curated well-established software engineering frameworks into a single resource: COMPASS (Coding Operations Manual & Protocol for AI System Standards). It's my small (hopefully useful) open source contribution to the growing community of AI-augmented coders.
+
+Think of it as "true north" for AI coding agents based on best practice to help keep code secure, predictable, and maintainable, drawing from well-established software engineering guidelines and protocols.
+
+**COMPASS anchors AI agents based on battle-tested standards:** OWASP for secure-by-default design, SOLID for architecture, Test-Driven Development for reliability, YAGNI for simplicity, defensive programming for robustness, and systematic debugging protocols; essentially the accumulated wisdom of modern software engineering in one framework. It works alongside project-specific guidelines such as CLAUDE.md or .cursorrules, acting as a base layer of universal dev standards.
+
+The idea is straightforward: keep the assistant grounded in proven patterns, ensure it slows down where it should, and give it a simple protocol for testing, debugging, and making safe decisions instead of improvising.
+
+If you're using any AI coding agents or coding directly in an LLM, you can install COMPASS by adding the markdown files to your project or assistant configuration. Most tools also support a lightweight trigger like /compass, which pulls the guardrails into context before the AI writes or modifies code.
+
+It comes with **COMPASS-MINI.md** (just ~1,200 tokens, a tiny fraction of modern context windows) which provides persistent instructions throughout your coding sessions. These instructions then become persistent throughout sessions. I've added universal instructions on how to configure in Claude Code, Codex, Cursor, GitHub Copilot, Windsurf, Aider, and Continue.dev.
+
+You can find it here: https://github.com/victordelrosal/compass
+
+Let me know if it improves your workflow or if you have any suggestions.
+
+---
+
 ```
  ██████╗ ██████╗ ██████╗ ██╗███╗   ██╗ ██████╗
 ██╔════╝██╔═══██╗██╔══██╗██║████╗  ██║██╔════╝
